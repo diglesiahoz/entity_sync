@@ -1,0 +1,23 @@
+-
+  entity_type: menu_link_content
+  elements:
+    -
+      __DEFAULT__:
+        enabled: 1
+        title: 'Page 3'
+        description: null
+        menu_name: footer
+        link:
+          -
+            uri: 'internal:/page-3'
+            title: ''
+            options:
+              attributes:
+                class:
+                  - ''
+                target: _self
+        external: 0
+        weight: 0
+        expanded: 0
+        parent: null
+        uuid: 52493c17-ad93-453d-8b14-9f3e8d90fda8

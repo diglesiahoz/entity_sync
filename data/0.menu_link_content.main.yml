@@ -1,0 +1,12 @@
+-
+  entity_type: menu_link_content
+  bundle: main
+  elements:
+    -
+      __DEFAULT__:
+        title: 'TEST {{title}}'
+        menu_name: main
+        link:
+          uri: 'https://local-www.demo.es'
+          title: '{{link::title}}'
+        uuid: 7dc90c7a-60c2-4963-9055-eaa544bf5f4e

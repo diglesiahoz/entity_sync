@@ -1,0 +1,20 @@
+services:
+  entity_sync.manager:
+    class: Drupal\entity_sync\Service\EntitySyncManager
+    arguments: ['@entity_sync.engine']
+
+  entity_sync.engine:
+    class: Drupal\entity_sync\Service\EntitySyncEngine
+    arguments:
+      - '@config.factory'
+      - '@entity_type.manager'
+      - '@logger.factory'
+      - '@module_handler'
+      - '@language_manager'
+      - '@entity_type.bundle.info'
+      - '@entity.repository'
+      - '@entity_field.manager'
+      - '@file_system'
+      - '@request_stack'
+      - '%app.root%'
+

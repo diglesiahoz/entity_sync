@@ -1,0 +1,7 @@
+services:
+  entity_sync.drush.commands:
+    class: Drupal\entity_sync\Commands\EntitySyncDrushCommands
+    arguments: ['@entity_sync.manager']
+    tags:
+      - { name: drush.command }
+

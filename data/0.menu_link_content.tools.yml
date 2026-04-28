@@ -1,0 +1,11 @@
+-
+  entity_type: menu_link_content
+  bundle: tools
+  elements:
+    -
+      __DEFAULT__:
+        title: '{{title}}'
+        menu_name: tools
+        link:
+          uri: 'https://local-www.demo.es'
+          title: '{{link::title}}'

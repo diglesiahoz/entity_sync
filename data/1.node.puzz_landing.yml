@@ -1,0 +1,35 @@
+-
+  entity_type: node
+  bundle: puzz_landing
+  elements:
+    -
+      __DEFAULT__:
+        title: '{{title}}'
+        field_puzz_landing_section:
+          -
+            entity_type: paragraph
+            bundle: puzz_section
+            elements:
+              -
+                __DEFAULT__:
+                  field_puzz_section_component:
+                    -
+                      entity_type: paragraph
+                      bundle: puzz_header
+                      elements:
+                        -
+                          __DEFAULT__:
+                            field_puzz_header_caption: '{{field_puzz_header_caption}}'
+                            field_puzz_header_image:
+                              -
+                                __SOURCE__: files/dummy_image.png
+                                alt: '{{field_puzz_header_image::alt}}'
+                                title: '{{field_puzz_header_image::title}}'
+                                file_uuid: 7fb54072-a95a-4adb-9616-5f50769948a3
+                                uuid: 693b642a-b99f-415d-9b44-c46866671e87
+                            field_puzz_header_link:
+                              uri: 'https://local-www.demo.es'
+                              title: '{{field_puzz_header_link::title}}'
+                            uuid: 8c96974a-8335-4e2e-bf48-9b5944a3e9c1
+                  uuid: 202fabe3-0888-45c8-9721-e75e88cb39bd
+        uuid: 13475e9e-9bd0-4949-aec4-1ccbeff9b770

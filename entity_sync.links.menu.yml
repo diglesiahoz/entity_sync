@@ -1,0 +1,7 @@
+entity_sync.settings:
+  title: 'Entity Sync'
+  description: 'Configuration for the entity sync data import.'
+  parent: system.admin_config
+  route_name: entity_sync.settings
+  weight: 0
+

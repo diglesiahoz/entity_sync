@@ -1,0 +1,8 @@
+name: Entity Sync
+type: module
+description: 'Bundle useful tools for sync entities'
+package: 'Custom'
+version: '11.x-1.x-dev'
+core_version_requirement: '^8.8.0 || ^9.0 || ^10.0 || ^11.0'
+configure: 'entity_sync.settings'
+

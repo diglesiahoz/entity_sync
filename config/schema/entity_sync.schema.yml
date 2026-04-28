@@ -1,0 +1,8 @@
+entity_sync.settings:
+  type: config_object
+  label: 'Entity Sync settings'
+  mapping:
+    data_path:
+      type: string
+      label: 'Data path'
+

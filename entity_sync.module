@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Entity sync module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function entity_sync_install(): void {
+  // No-op. Kept for parity with the original module.
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function entity_sync_uninstall(): void {
+  // No-op.
+}
+
+/**
+ * Implements hook_requirements().
+ */
+function entity_sync_requirements($phase): array {
+  if ($phase !== 'runtime') {
+    return [];
+  }
+
+  return [
+    'entity_sync_status' => [
+      'title' => t('Entity sync status'),
+      'value' => t('Enabled'),
+      'severity' => REQUIREMENT_INFO,
+    ],
+  ];
+}
+

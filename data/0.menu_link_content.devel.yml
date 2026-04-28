@@ -1,0 +1,11 @@
+-
+  entity_type: menu_link_content
+  bundle: devel
+  elements:
+    -
+      __DEFAULT__:
+        title: '{{title}}'
+        menu_name: devel
+        link:
+          uri: 'https://local-www.demo.es'
+          title: '{{link::title}}'

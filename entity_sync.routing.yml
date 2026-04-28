@@ -1,0 +1,8 @@
+entity_sync.settings:
+  path: '/admin/config/entity-sync/settings'
+  defaults:
+    _form: 'Drupal\entity_sync\Form\EntitySyncSettingsForm'
+    _title: 'Entity Sync settings'
+  requirements:
+    _permission: 'administer site configuration'
+
