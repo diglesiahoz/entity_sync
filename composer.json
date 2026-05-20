@@ -3,6 +3,7 @@
   "description": "Módulo Drupal Entity Sync.",
   "type": "drupal-custom-module",
   "license": "GPL-2.0-or-later",
+  "version": "1.0.x-dev",
   "require": {},
   "keywords": [
     "Drupal",
