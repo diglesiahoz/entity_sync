@@ -1,0 +1,18 @@
+{
+  "name": "diglesiahoz/entity_sync",
+  "description": "Módulo Drupal Entity Sync.",
+  "type": "drupal-custom-module",
+  "license": "GPL-2.0-or-later",
+  "require": {},
+  "keywords": [
+    "Drupal",
+    "Module"
+  ],
+  "authors": [
+    {
+      "name": "Daniel de la Iglesia (daniel.delaiglesia)",
+      "homepage": "https://www.drupal.org/u/danieldelaiglesia",
+      "role": "Maintainer"
+    }
+  ]
+}
